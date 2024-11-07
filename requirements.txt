@@ -1,0 +1,14 @@
+chumpy==0.70
+gradio==4.39.0
+ipdb==0.13.13
+matplotlib==3.5.1
+nibabel==4.0.2
+numpy==1.22.2
+open3d==0.15.1
+opencv-python==4.10.0.84
+plyfile==0.7.4
+psbody-mesh==0.3
+pytorch3d==0.7.2
+scipy==1.9.3
+tqdm==4.66.5
+trimesh==3.17.1
