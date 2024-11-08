@@ -105,7 +105,7 @@ python eval.py --output_dir logs/test --resume logs/refine/model_best.pth.tar --
 ```
 Qualitative results can be generated and saved by adding '--save_results' to the command. 
 
-## Contact
+## Note
 Currently, only `.pyc` files are provided. After setting up the environment, please replace all `.py` in the commands with `.pyc` to execute them. The full source code will be made publicly available upon the publication of the paper.
 
 ## Contact
