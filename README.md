@@ -1,12 +1,10 @@
-# Automatic coarse-to-fine method for cattle body measurement based on improved GCN and 3D parametric model
+# BM-GCN
 
 This repository represents the source code for our paper.
 
 <p align="center">
   <img src="assets/pipeline.png">
 </p>
-
-We propose a novel two-stage coarse-to-fine approach for automatic cattle body measurement that combines parametric models with non-parametric representations. Our method begins with a coarse estimation stage, where a parametric model is initially aligned with the point cloud data based on pose priors, shape priors, and detected key points. Going beyond the shape space of the parametric model, the estimated coarse mesh is then refined by an encoder-decoder structured Graph Convolutional Network (GCN) to predict per-vertex non-parametric deformations. More specifically, the point cloud-level global features and vertex-level local features are jointly integrated as the input of downsampling and upsampling GCNs to fully capture non-linear variations of hierarchical meshes. Finally, body measurements are performed on the reconstructed mesh. 
 
 ## Demo
 <p align="center">
