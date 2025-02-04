@@ -1,6 +1,6 @@
 # BM-GCN
 
-This repository represents the source code for our paper.
+This repository represents the source code for our paper "[Automatic coarse-to-fine method for cattle body measurement based on improved GCN and 3D parametric model](https://www.sciencedirect.com/science/article/pii/S0168169925001231?dgcid=author)".
 
 <p align="center">
   <img src="assets/pipeline.png">
